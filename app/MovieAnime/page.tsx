@@ -31,7 +31,9 @@ const images2 =[
 
 const App = () => (
   <div className='container m-[2rem]  mx-auto max-w h-screen  overflow-y-auto '>
-    <div><p className='font-mono font-bold flex items-center justify-center bg-[#00000050] text-white' >/ MOVIE WEB \</p></div>
+    <div><p className='font-mono font-bold flex xl:justify-center xl:items-center
+     2xl:justify-center 2xl:items-center
+     items-center justify-center bg-[#00000050] text-white' >/ MOVIE WEB \</p></div>
      <div>{images2}</div>
      <div><p className='font-mono font-bold flex justify-center bg-[#00000050] text-white' >/ Anime WEB \</p></div>
     <div className='flex flex-col lg:flex-row xl:flex-row items-center mb-[7rem]'>
