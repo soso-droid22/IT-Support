@@ -24,11 +24,12 @@ export default function RootLayout({
        <body className={inter.className}>
        <meta charSet="UTF-8" />
        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <Sw />
+        
         <SpeedInsights/>
         <Analytics/>
          <Header />
        <main>{children}</main>
+       <script><Sw /></script>
       </body>
     </html>
   );
