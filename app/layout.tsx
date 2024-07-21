@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
+import Sw from "./sw";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -22,6 +24,7 @@ export default function RootLayout({
        <body className={inter.className}>
        <meta charSet="UTF-8" />
        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <Sw />
         <SpeedInsights/>
         <Analytics/>
          <Header />
