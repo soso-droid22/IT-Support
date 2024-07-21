@@ -25,7 +25,7 @@ export default function RootLayout({
         <SpeedInsights/>
         <Analytics/>
          <Header />
-       <main>{children}</main>
+       <main>{children}</main
       </body>
     </html>
   );
